@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    margin-top: .5rem;
+    width: 100%;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header ul li {
+    font-size: 1.4rem;
+    list-style: none;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+
+.header ul li:hover {
+    background-color: #5c6b71
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header h2 a {
+    color: white;
+}
+
+.header h2 a:hover {
+    color: #00bc8c;
+}
