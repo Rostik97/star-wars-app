@@ -1,0 +1,25 @@
+.App{
+    margin: 0;
+    padding: 0;
+    background-color: #1c313a;
+    min-height: 100vh;
+}
+
+.App .Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.App .Content .Row{
+    display: inline-flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+}
+
