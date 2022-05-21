@@ -1,0 +1,21 @@
+.PersonDetails {
+    display: flex;
+    flex: 3 0 300px;
+    background-color: #455a64;
+    border-radius: 10px;
+}
+
+.Item {
+    background-color: inherit;
+}
+
+.PersonImg {
+    margin: 1.4rem;
+    width: 220px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.PersonDetails .PersonInfo {
+    margin: 1.3rem 1.8rem;
+}
