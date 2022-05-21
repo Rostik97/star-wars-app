@@ -1,0 +1,26 @@
+.RandomPlanet {
+    display: flex;
+    width: 100%;
+    background-color: #455a64;
+    border-radius: 10px;
+}
+
+.RandomPlanet .Spinner {
+    /*display: flex;*/
+    margin: auto auto;
+}
+
+.RandomPlanet .PlanetInfo .Item {
+    background-color: inherit;
+}
+
+.RandomPlanet .PlanetImg {
+    margin: 1.4rem;
+    max-width: 210px;
+    max-height: 210px;
+    border-radius: 10px;
+}
+
+.RandomPlanet .PlanetInfo {
+    margin: 1.3rem 1.8rem;
+}
