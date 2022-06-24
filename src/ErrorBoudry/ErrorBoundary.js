@@ -1,5 +1,5 @@
-import {Component} from "react";
 import Error from "../Error/Error";
+import React, {Component} from "react";
 
 export default class ErrorBoundary extends Component {
 
@@ -8,7 +8,7 @@ export default class ErrorBoundary extends Component {
     }
 
     componentDidCatch(error, errorInfo) {
-        console.log("ErrorBoundry " + errorInfo)
+        console.log("ErrorBoundry catch error: " + errorInfo)
         this.setState({
             hasError: true
         })
