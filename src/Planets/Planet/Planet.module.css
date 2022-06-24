@@ -1,0 +1,25 @@
+.Planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 280px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+    border-radius: 10px;
+}
+
+.Planet:hover{
+    background-color: #546a76;
+}
+
+.PlanetImg{
+    width: 260px;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.Planet h5 {
+    margin: 0;
+}

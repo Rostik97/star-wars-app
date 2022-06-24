@@ -1,9 +1,0 @@
-.ItemList {
-    display: flex;
-    background-color: rgba(113, 138, 138, 0.15);
-    border-radius: 10px;
-}
-
-.Item{
-    background-color: inherit;
-}
