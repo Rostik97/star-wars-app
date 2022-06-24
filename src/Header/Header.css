@@ -27,7 +27,6 @@
 .header a:hover {
     text-decoration: none;
     color: white;
-
 }
 
 .header h2 a {
@@ -36,4 +35,9 @@
 
 .header h2 a:hover {
     color: #00bc8c;
+}
+
+.active {
+    color: #76d9ff;
+    cursor: default;
 }
