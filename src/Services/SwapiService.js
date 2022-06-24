@@ -15,7 +15,7 @@ export default class SwapiService {
 
     getAllPeople = async () => {
         const res = await this.getResource(`/people/`);
-        return res.results.map(this.transformPerson).splice(0, 10);
+        return res.results.map(this.transformPerson);
     }
 
     getPerson = async (id) => {
@@ -47,8 +47,20 @@ export default class SwapiService {
         return `${this._imgBaseUrl}/characters/${id}.jpg`
     }
 
+    getVehicleImg = (id) => {
+        return `${this._imgBaseUrl}/vehicles/${id}.jpg`
+    }
+
     getStarshipImg = (id) => {
         return `${this._imgBaseUrl}/starships/${id}.jpg`
+    }
+
+    getFilmImg = (id) => {
+        return `${this._imgBaseUrl}/films/${id}.jpg`
+    }
+
+    getPlanetImg = (id) => {
+        return `${this._imgBaseUrl}/planets/${id}.jpg`
     }
 
 
@@ -58,7 +70,12 @@ export default class SwapiService {
             name: planet.name,
             population: planet.population,
             rotationPeriod: planet.rotation_period,
-            diameter: planet.diameter
+            diameter: planet.diameter,
+            climate: planet.climate,
+            residents: planet.residents,
+            films: planet.films,
+            terrain: planet.terrain,
+            gravity: planet.gravity
         }
     }
 
@@ -72,7 +89,8 @@ export default class SwapiService {
             length: starShip.length,
             crew: starShip.crew,
             passengers: starShip.passengers,
-            cargoCapacity: starShip.cargo_capacity
+            cargoCapacity: starShip.cargo_capacity,
+            ...starShip
         }
     }
 
@@ -85,6 +103,7 @@ export default class SwapiService {
             birthYear: person.birth_year,
             weight: person.mass,
             height: person.height,
+            ...person
         }
     }
 
