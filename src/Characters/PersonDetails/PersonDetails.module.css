@@ -1,0 +1,87 @@
+.PersonDetails {
+    width: 85%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PersonDetails .PersonImg {
+    width: 260px;
+    height: 310px;
+    border-radius: 10%;
+}
+
+
+.PersonDetails .DetailedInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PersonDetails .FilmsInfo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PersonDetails .ResidentInfo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PersonDetails h1 {
+    border-bottom: 2px solid #3e4e55;
+}
+
+.PersonDetails h2 {
+    border-bottom: 2px solid #3e4e55;
+}
+
+.PersonDetails .PersonGeneralInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.Item {
+    background-color: inherit;
+}
+
+.ViewInfo {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.Img {
+    width: 210px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.VehiclesImg {
+    width: 270px;
+    height: 270px;
+    border-radius: 7px;
+}
