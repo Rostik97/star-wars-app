@@ -1,0 +1,25 @@
+.Person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 280px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+    border-radius: 10px;
+}
+
+.Person:hover {
+    background-color: #59707c;
+}
+
+.PersonImg {
+    width: 230px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+.Person h5 {
+    margin: 0;
+}
