@@ -1,0 +1,81 @@
+.PlanetDetails {
+    width: 85%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlanetDetails .PlanetImg {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.PlanetDetails .DetailedInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PlanetDetails .FilmsInfo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PlanetDetails .ResidentInfo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #455a64;
+}
+
+.PlanetDetails h1 {
+    border-bottom: 2px solid #3e4e55;
+}
+
+.PlanetDetails h2 {
+    border-bottom: 2px solid #3e4e55;
+}
+
+.PlanetDetails .PlanetGeneralInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.Item {
+    background-color: inherit;
+}
+
+.ViewInfo {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.Img {
+    width: 210px;
+    height: 270px;
+    border-radius: 7px;
+}
+
