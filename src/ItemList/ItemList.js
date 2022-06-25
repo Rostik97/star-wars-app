@@ -23,6 +23,10 @@ const ItemList = (props) => {
     );
 
 }
+ItemList.defaultProps = {
+    renderItem: ()=>{}
+}
+
 export default ItemList
 
 
