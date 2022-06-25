@@ -1,6 +1,7 @@
 <h1>Star Wars Application</h1>
 
 <h2>Using</h2>
+
 * Hooks + class components
 * React-router-dom v6
 * React context
@@ -11,6 +12,5 @@
     * https://starwars-visualguide.com/assets/img
 
 
-Deployed on github-pages
-
+<h2>Deployed on github-pages</h2>
 https://rostik97.github.io/star-wars-app/
