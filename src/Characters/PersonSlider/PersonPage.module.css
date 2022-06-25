@@ -1,0 +1,27 @@
+.PeoplePage {
+    width: 100%;
+}
+
+.PeoplePage .PeopleTab {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PeoplePage .PeopleTab a {
+    text-decoration: none;
+}
+
+.PeoplePage .PeopleTab a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: none;
+}
