@@ -2,6 +2,7 @@
   "name": "star-wars-app",
   "version": "1.0.1",
   "author": "Alekseev",
+  "homepage": "https://rostik97.github.io/star-wars-app/",
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
